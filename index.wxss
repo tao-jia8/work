@@ -1,0 +1,82 @@
+/**index.wxss**/
+
+.flex {
+  display: flex;
+}
+
+.left-box {
+  flex: 2;
+  padding: 1em 0 0 1em;
+  border-radius: 0 12px 0px 0;
+  height: 100vh;
+  color: #808080;
+  background-color: pink;
+  font-size: 0.8em;
+  font-weight: bold;
+  line-height: 1.5em;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  color: transparent;
+  display: none;
+}
+
+.right-box {
+  flex: 7;
+  text-align: center;
+}
+
+image {
+  margin-top: 5vh;
+  width: 195px;
+  height: 52px;
+}
+
+input {
+  margin: 5vh auto 10rpx;
+  padding: 0 1em;
+  width: 70%;
+  height: 80rpx;
+  border: none;
+  border: 1rpx solid pink;
+  border-radius: 8px; /*圆角*/
+  color: #808080;
+}
+
+.bottom {
+  position: absolute;
+  margin-left: calc(38.9vw - 100rpx);
+  bottom: 5vh;
+  width: 200rpx;
+}
+
+.content {
+  /* text-align: left; */
+  color: #808080;
+  font-size: 0.5em;
+}
+
+.text {
+  font-size: 1em;
+  /* line-height: 2.5em; */
+}
+
+/* .userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+} */
